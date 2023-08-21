@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Números de 1 a 20</title>
+</head>
+<body>
+    
+    <script>
+        var mostrar;
+    mostrar = prompt("Digite 0 para mostrar os números abaixo ou 1 para ao lado:");
+    
+    if (mostrar === '0') {
+        var numeros = '';
+        for (var i = 1; i <= 20; i++) {
+            numeros += i + '\n';
+        }
+
+        alert(numeros);
+
+        } else if (mostrar === '1') {
+        var numeros = ''; 
+        for (var i = 1; i <= 20; i++) { 
+            numeros += i + ' ';
+        } 
+        
+        alert(numeros);
+    } else {   
+        alert("Opção inválida.");
+    }
+    </script>
+    
+</body>
+</html>
+</body>
+</html>
